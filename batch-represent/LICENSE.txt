@@ -1,0 +1,9 @@
+The code provided in this subfolder is taken from the OPENFACE git repository
+
+            https://github.com/cmusatyalab/openface
+
+which is distributed under the Apache 2.0 license
+
+            https://github.com/cmusatyalab/openface/blob/master/LICENSE
+
+allowing re-distribution of the source code.

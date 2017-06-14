@@ -1,0 +1,37 @@
+This document contains web links pointing to the video files used in the publication
+
+N. Kroher, A. Pikrakis and J.-M. Díaz-Báñez (2017): "Image-based singer identificaiton in flamenco videos". In
+Proceedings of the 7th International Workshop of Folk Music Analysis, Málaga, Spain.
+
+#       Singer-ID           Link
+01      argentina           https://www.youtube.com/watch?v=8SEsMAn98BY
+02      agujetas            https://www.youtube.com/watch?v=SSldjIaYjzk
+03      antonioMairena      https://www.youtube.com/watch?v=0bzTtWZy8M0
+04      arcangel            https://www.youtube.com/watch?v=_FOxjf-P_ko
+05      camaron             https://www.youtube.com/watch?v=lbKsf8vQLVk
+06      chanoLobato         https://www.youtube.com/watch?v=77-dHaFJjwE
+07      joseMenese          https://www.youtube.com/watch?v=n2CD7QHAXpo
+08      miguelPoveda        https://www.youtube.com/watch?v=tb14Yb6JCu4
+09      rocioMarquez        https://www.youtube.com/watch?v=d68g7L9f03g
+10      camaron             https://www.youtube.com/watch?v=t-aVN9nQqpk
+11      camaron             https://www.youtube.com/watch?v=pM-06u-MWMY
+12      miguelPoveda        https://www.youtube.com/watch?v=E3CJiJX-qLE
+13      rocioMarquez        https://www.youtube.com/watch?v=Qpiduo81Hgw
+14      rocioMarquez        https://www.youtube.com/watch?v=4d6zhimgIxg
+15      argentina           https://www.youtube.com/watch?v=zFYAd1TlR9U
+16      argentina           https://www.youtube.com/watch?v=jLBifl-OJLE
+17      arcangel            https://www.youtube.com/watch?v=3_X6Gm2dgus
+18      arcangel            https://www.youtube.com/watch?v=JeJcylN9Ey4
+19      agujetas            https://www.youtube.com/watch?v=odZQ1T7-7-I
+20      agujetas            https://www.youtube.com/watch?v=vjmydo-L7c4
+21      chanoLobato         https://www.youtube.com/watch?v=uNRuQ_n_cWE
+22      antonioMairena      https://www.youtube.com/watch?v=Wr7ZYhp8-jQ
+23      antonioMairena      https://www.youtube.com/watch?v=Aye51W16KYw
+24      chanoLobato         https://www.youtube.com/watch?v=2LV2yeJ9RbA
+25      joseMenese          https://www.youtube.com/watch?v=WctW6q8TgUU
+26      joseMenese          https://www.youtube.com/watch?v=5yT80VlgEwc
+27      miguelPoveda        https://www.youtube.com/watch?v=wE1U2YhyyTc
+28      estrellaMorente     https://www.youtube.com/watch?v=el-JCYq2f4Q
+29      estrellaMorente     https://www.youtube.com/watch?v=pGEhU9lT7f0
+30      estrellaMorente     https://www.youtube.com/watch?v=qWz5vNw0v9U
+

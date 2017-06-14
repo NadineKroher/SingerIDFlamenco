@@ -1,0 +1,39 @@
+import cv2
+import dlib
+import os
+import openface
+import ntpath
+
+from glob import glob
+
+# load face recognition model
+predictor_model = './models/shape_predictor_68_face_landmarks.dat'
+
+# initiate face detection and alignment
+face_detector = dlib.get_frontal_face_detector()
+face_pose_predictor = dlib.shape_predictor(predictor_model)
+face_aligner = openface.AlignDlib(predictor_model)
+
+# locate training directories
+dbDir = './face-db/images/'
+persons = [x for x in next(os.walk(dbDir))[1]]
+
+## DETECT AND ALIGN LANDMARKS
+for person in persons:
+    print('----------------')
+    print person
+    print('----------------')
+    files = glob(dbDir + person + '/*.jpg')
+    for file in files:
+        image = cv2.imread(file)
+        detected_faces = face_detector(image, 1)
+        print ntpath.basename(file)
+        if len(detected_faces) != 1:
+            print("None or various faces detected. Ignoring file.")
+            continue
+        else:
+            print("Found {} faces in the image file".format(len(detected_faces)))
+        pose_landmarks = face_pose_predictor(image, detected_faces[0])
+        alignedFace = face_aligner.align(534, image, detected_faces[0], landmarkIndices=openface.AlignDlib.OUTER_EYES_AND_NOSE)
+        cv2.imwrite('./face-db/alignedImages/' + person + '/' + ntpath.basename(file),alignedFace)
+
