@@ -10,19 +10,19 @@ def parseArgs(argv): # parse input arguments
     try:
         opts, args = getopt.getopt(argv,"i:")
         if not opts:
-            print 'No options supplied'
-            print 'Usage: RecognizeSinger.py -i <inputfolder>'
+            print ('No options supplied')
+            print ('Usage: RecognizeSinger.py -i <inputfolder>')
             sys.exit(2)
     except getopt.GetoptError as e:
-        print 'Usage: RecognizeSinger.py -i <inputfolder>'
+        print ('Usage: RecognizeSinger.py -i <inputfolder>')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-i':
             folder = arg
-    print 'Finding videos in folder %s ...' %folder
+    print ('Finding videos in folder %s ...' %folder)
     # make sure this is a folder
     if not os.path.isdir(folder):
-        print 'Folder does not exist!'
+        print ('Folder does not exist!')
         sys.exit(2)
     # create list of video files
     files = []
@@ -30,7 +30,7 @@ def parseArgs(argv): # parse input arguments
         if file.endswith('.mp4'):
             files.append(file)
     if not files:
-        print 'No .mp4 files found!'
+        print ('No .mp4 files found!')
         sys.exit(2)
     if not folder.endswith('/'):
         folder = folder + '/'
@@ -129,7 +129,7 @@ def main(argv):
         count = 0.0
         # frame-wise processing
         while count < dur:
-            print " %i / 100" %int(100*count / dur)
+            print (" %i / 100" %int(100*count / dur))
             setPosition(vidcap,count,ver) # roll video to current position
 
             success,image = vidcap.read() # read frame
@@ -160,7 +160,7 @@ def main(argv):
         pred = score.index(max(score))
         person = labelMap[int(pred)-1]
         conf = float(score[pred]) / float(sum(score))
-        print "Predicted singer:'%s'with confidence %f" %(person,conf)
+        print ("Predicted singer:'%s'with confidence %f" %(person,conf))
 
 
 if __name__ == "__main__":

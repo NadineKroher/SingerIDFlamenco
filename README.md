@@ -1,6 +1,7 @@
 *** IMAGE-BASED SINGER IDENTIFICATION IN FLAMENCO VIDEOS ***
 
 +++ ABOUT +++
+
 This repository contains software and data to reproduce the results reported in the publication
 
     N. Kroher, A. Pikrakis and J.-M. Díaz-Báñez (2017): "Image-based singer identificaiton in flamenco videos". In
@@ -13,7 +14,7 @@ or fitness for a particular purpose.
  *  Copyright (C) 2017  Nadine Kroher and Aggelos Pikrakis
  *  nkroher at us dot es / pikrakis at unipi dot gr
  *  www.cofla-project.com
-+++++++++++++
+
 
 
 +++ DEPENDENCIES +++
@@ -23,6 +24,7 @@ or fitness for a particular purpose.
 * dlib  (https://pypi.python.org/pypi/dlib)
 
 +++ USAGE +++
+
 To get started, run
 
     python RecognizeSinger.py -i ./videos/
@@ -39,4 +41,4 @@ to detect the singer in the test video contained in the "videos" folder among th
   from the terminal:
 
         ./batch-represent/main.lua -outDir ./models/ -data ./face-db/alignedImages/
-+++++++++++++++
+
